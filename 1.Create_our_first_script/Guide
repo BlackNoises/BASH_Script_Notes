@@ -1,0 +1,29 @@
+Find out which bash shells we have 
+
+cat /etc/shells
+
+It is important to note that in order to learn bash scripting, we first need to learn Unix commands. One command that will be useful is chmod, which allows us to execute commands. 
+
+Great! Let's create a document in .sh.
+
+We can use the command:
+
+nano my_first_script.sh
+
+Add the following to the first line: 
+
+#! /bin/bash 
+
+On the next line, write “hello world!”
+
+echo “hello world”
+
+Important note: Permission can be granted when creating the file or after editing, depending on your preference.
+
+I recommend doing it by binary with chmod:
+
+chmod 777  my_first_script.sh
+
+To run it:.
+
+ /my_first_script.sh
